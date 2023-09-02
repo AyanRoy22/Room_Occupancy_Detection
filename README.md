@@ -2,20 +2,20 @@
 This project involves analyzing sensor data from various sensors placed in a room. These sensors include motion detectors, temperature sensors, light sensors, and even sound sensors. The objective is to develop a machine-learning model that can classify whether the room is currently occupied or unoccupied based on the sensor readings. This is a binary classification task where the model predicts one of two classes: "occupied" or "unoccupied."
 
 ## Data Description
-The data is of secondary source and is taken from
-Candanedo,Luis. (2016). Occupancy Detection . UCI Machine Learning Repository.\ https://doi.org/10.24432/C5X01N.
+The data is of secondary source and is taken from <br>
+Candanedo,Luis. (2016). Occupancy Detection . UCI Machine Learning Repository.<br> https://doi.org/10.24432/C5X01N.
 
-It has 20560 instances and 7 attributes.
-The data is divided into 3 sets one for training, testing, and validation. Ground-truth occupancy was obtained from time-stamped pictures that were taken every minute.
+It has 20560 instances and 7 attributes. <br>
+The data is divided into 3 sets one for training, testing, and validation. Ground-truth occupancy was obtained from time-stamped pictures that were taken every minute. <br>
 It has no missing values.
 
 ### Attribute Information
-date time year-month-day hour:minute:second 
-Temperature, in Celsius 
-Relative Humidity, in percentage 
-Light, in Lux 
-CO2, in ppm 
-Humidity Ratio, Derived quantity from temperature and relative humidity, in kgwater-vapor/kg-air 
+date time year-month-day hour:minute:second <br>
+Temperature, in Celsius <br>
+Relative Humidity, in percentage <br>
+Light, in Lux <br>
+CO2, in ppm <br>
+Humidity Ratio, Derived quantity from temperature and relative humidity, in kgwater-vapor/kg-air <br>
 Occupancy, 0 or 1, 0 for not occupied, 1 for occupied status 
 
 ## Objectives
