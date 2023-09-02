@@ -53,7 +53,7 @@ For this project, I used 4 models
 3. Random Forest Classifier 
 4. Ada Boost Classifier
 
-Out of which <font color = "yellow">Random Forest Classifier</font> gave the best score. After Hyperparameter tuning, it gave a score of ==98.02%== <br>
+Out of which <p style="color:yellow">Random Forest Classifier</p> gave the best score. After Hyperparameter tuning, it gave a score of ==98.02%== <br>
 Other performance metrics are as follows : 
 
 **Accuracy:** The accuracy of ==97.69%== indicates that the overall model performance is relatively high. It suggests that the model correctly predicts the outcome for approximately 97.69% of the cases.<br>
