@@ -28,8 +28,8 @@ Occupancy, 0 or 1, 0 for not occupied, 1 for occupied status
 # Methadology
 To begin with I tried to get a basic understanding of the data by doing some EDA. <br>
 Here is an overview of the train set with its summary statistics.
-![training data](data.png)
-![summary statistics](descstats.png)
+![training data](plots/data.png)
+![summary statistics](plots/descstats.png)
 
 I used Min-Max Scaler to normalize the data. The target column was imbalanced so I used SMOTE to fix the issue. 
 
