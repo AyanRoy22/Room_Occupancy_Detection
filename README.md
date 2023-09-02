@@ -2,11 +2,11 @@
 This project involves analyzing sensor data from various sensors placed in a room. These sensors include motion detectors, temperature sensors, light sensors, and even sound sensors. The objective is to develop a machine-learning model that can classify whether the room is currently occupied or unoccupied based on the sensor readings. This is a binary classification task where the model predicts one of two classes: "occupied" or "unoccupied."
 
 ## Data Description
-The data is of secondary source and is taken from <br>
+The data is of secondary source and is taken from
 Candanedo,Luis. (2016). Occupancy Detection . UCI Machine Learning Repository.<br> https://doi.org/10.24432/C5X01N.
 
 It has 20560 instances and 7 attributes. <br>
-The data is divided into 3 sets one for training, testing, and validation. Ground-truth occupancy was obtained from time-stamped pictures that were taken every minute. <br>
+The data is divided into 3 sets one for training, testing, and validation. Ground-truth occupancy was obtained from time-stamped pictures that were taken every minute.
 It has no missing values.
 
 ### Attribute Information
