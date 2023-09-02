@@ -53,16 +53,16 @@ For this project, I used 4 models
 3. Random Forest Classifier 
 4. Ada Boost Classifier
 
-Out of which Random Forest Classifier gave the best score. After Hyperparameter tuning, it gave a score of 98.02% <br>
+Out of which ==Random Forest Classifier== gave the best score. After Hyperparameter tuning, it gave a score of ==98.02%== <br>
 Other performance metrics are as follows : 
 
-**Accuracy:** The accuracy of 97.69% indicates that the overall model performance is relatively high. It suggests that the model correctly predicts the outcome for approximately 97.69% of the cases.<br>
+**Accuracy:** The accuracy of ==97.69%== indicates that the overall model performance is relatively high. It suggests that the model correctly predicts the outcome for approximately 97.69% of the cases.<br>
 
-**Specificity:** The specificity of 95.74% suggests that the model performs well in correctly identifying negative cases. Specifically, it indicates that the model correctly classifies about 95.74% of the true negatives.<br>
+**Specificity:** The specificity of ==95.74%== suggests that the model performs well in correctly identifying negative cases. Specifically, it indicates that the model correctly classifies about 95.74% of the true negatives.<br>
 
-**Sensitivity:** The sensitivity (also known as recall or true positive rate) of 99.64% suggests that the model is effective at identifying positive cases. It indicates that the model correctly identifies approximately 99.64% of the true positives.<br>
+**Sensitivity:** The sensitivity (also known as recall or true positive rate) of ==99.64%== suggests that the model is effective at identifying positive cases. It indicates that the model correctly identifies approximately 99.64% of the true positives.<br>
 
-**F1 score:** The F1 score of 97.74% is a measure that combines precision and recall (sensitivity) into a single metric. It is useful when you want to balance both false positives and false negatives. The F1 score of 97.74% suggests that the model has a good trade-off between precision and recall, providing a balanced performance.
+**F1 score:** The F1 score of ==97.74%== is a measure that combines precision and recall (sensitivity) into a single metric. It is useful when you want to balance both false positives and false negatives. The F1 score of 97.74% suggests that the model has a good trade-off between precision and recall, providing a balanced performance.
 
 Finally here is what the ROC looks like.
 ![ROC curve](plots/ROC.png)
