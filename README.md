@@ -26,7 +26,10 @@ Occupancy, 0 or 1, 0 for not occupied, 1 for occupied status
 4. **Occupancy Insights:** Beyond energy efficiency and security, occupancy data can provide valuable insights into space utilization. Organizations can use this information to optimize office layouts or to plan for future space requirements.
 
 # Methadology
-To begin with I tried to get a basic understanding of the data by doing some EDA.
+To begin with I tried to get a basic understanding of the data by doing some EDA. <br>
+Here is an overview of the train set with its summary statistics.
+![training data](data.png)
+![summary statistics](descstats.png)
 
 I used Min-Max Scaler to normalize the data. The target column was imbalanced so I used SMOTE to fix the issue. 
 
