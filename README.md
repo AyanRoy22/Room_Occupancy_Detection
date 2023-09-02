@@ -28,10 +28,17 @@ Occupancy, 0 or 1, 0 for not occupied, 1 for occupied status
 # Methadology
 To begin with I tried to get a basic understanding of the data by doing some EDA. <br>
 Here is an overview of the train set with its summary statistics.
-![training data](plots/data.png)
-![summary statistics](plots/descstats.png)
+![training data](plots/data.png) <br>
+![summary statistics](plots/descstats.png) <br>
+I plotted histograms and time-series graphs.  
+![histogram](plots/hist.png) <br>
+![time series](plots/timeseries.png) <br>
 
 I used Min-Max Scaler to normalize the data. The target column was imbalanced so I used SMOTE to fix the issue. 
+
+I then used a heatmap and found out there is a strong correlation between Light and Occupancy. CO2 level also has a high correlation with Occupancy.
+![heat map](plots/heatmap.png) <br>
+Humidity and HumidityRatio have a high correlation with each other, leading to multicollinearity. So to avoid this I dropped the Humidity column.
 
 # Conclusion
 In conclusion, a machine learning project for predicting room occupancy based on sensor data has practical applications across various sectors, including building management, security, energy conservation, and user comfort. It addresses real-world problems and can lead to cost savings, improved resource allocation, and enhanced user experiences while also presenting challenges related to data quality, privacy, and real-time processing.
