@@ -53,8 +53,8 @@ For this project, I used 4 models
 3. Random Forest Classifier 
 4. Ada Boost Classifier
 
-Out of which Random Forest Classifier gave the best score. After Hyperparameter tuning, it gave a score of 98.02% <br>
-Other performance metrics are as follows : 
+Out of which Random Forest Classifier gave the best score. After Hyperparameter tuning, it gave an accuracy score of 98.02% <br>
+From the confusion matrix, performance metrics are as follows : 
 
 **Accuracy:** The accuracy of 97.69% indicates that the overall model performance is relatively high. It suggests that the model correctly predicts the outcome for approximately 97.69% of the cases.<br>
 
